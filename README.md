@@ -5,6 +5,7 @@ Require enviroment: ruby2.7.0 and rails 6.0.3
 Edit file config/application.yml to your local database username and password
 
 Run ```rails db:create``` to setup database
+
 Run ```rails db:migration``` to migrate database
 
 Run ```rails db:seed``` to create sample data
@@ -19,6 +20,14 @@ Run ```bin/webpack-dev-server```
 ```
   bundle exec rspec
 ```
+
+## Preview Screen
+
+![alt text](https://github.com/[panda622]/[arxiv]/blob/[main]/articles_screen.png?raw=true)
+
+![alt text](https://github.com/[panda622]/[arxiv]/blob/[main]/save_articles_sceen..png?raw=true)
+
+
 
 ## Gem used
 
