@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arxiv</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <ul>
+      <% if user_signed_in? %>
+        <li><%= link_to 'Home', root_path %></li>
+        <li><%= link_to 'Save Articles', get_save_articles_path %></li>
+        <li><%= link_to 'Log out', destroy_user_session_path, method: :delete %></li>
+      <% end %>
+    </ul>
+
+    <% flash.each do |type, msg| %>
+      <div class="alert alert-info">
+        <%= msg %>
+      </div>
+    <% end %>
+
+    <%= yield %>
+  </body>
+</html>

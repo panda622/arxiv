@@ -1,0 +1,8 @@
+<% @content.to_a.each do |feed| %>
+  <div class="feed">
+    <h3 class="title"><%= feed.title %></h3>
+    <div class="author"><%= feed.author %></div>
+    <div class="summary"><%= feed.summary %></div>
+    <%= link_to 'Save Article', do_save_articles_path(title: feed.title, url: feed.url), method: :post %>
+  </div>
+<% end %>

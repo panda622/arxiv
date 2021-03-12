@@ -1,0 +1,14 @@
+#container {
+  .feed {
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 10px 0;
+
+    .title {
+      margin: 5px;
+    }
+    .author {
+      margin-bottom: 10px;
+    }
+  }
+}

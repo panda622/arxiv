@@ -1,0 +1,10 @@
+<div id="searchBox">
+  <input id="searchInput" type="text" placeholder="Search" /><br/>
+
+  <input type="radio" id="all" name="search_query" value="all" checked>
+  <label for="all">Search All</label><br>
+  <input type="radio" id="author" name="search_query" value="author">
+  <label for="author">Search by author</label><br>
+
+  <%= link_to 'Search', articles_path(search_query: ""), remote: true, method: :get, id: "btnSearch", data: {disable_with: "Searching ..."} %>
+<div>
