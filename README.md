@@ -5,6 +5,7 @@ Require enviroment: ruby2.7.0 and rails 6.0.3
 Edit file config/application.yml to your local database username and password
 
 Run ```rails db:create``` to setup database
+Run ```rails db:migration``` to migrate database
 
 Run ```rails db:seed``` to create sample data
 
@@ -31,3 +32,5 @@ Run ```bin/webpack-dev-server```
   * To setup enviroment variables
 * rest-client
   * To make http requests
+* feedjira
+  * To parse atom xml
