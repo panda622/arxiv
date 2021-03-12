@@ -23,11 +23,10 @@ Run ```bin/webpack-dev-server```
 
 ## Preview Screen
 
-![alt text](https://github.com/[panda622]/[arxiv]/blob/[main]/articles_screen.png?raw=true)
-
-![alt text](https://github.com/[panda622]/[arxiv]/blob/[main]/save_articles_sceen..png?raw=true)
+![save_articles_sceen.png](https://2.pik.vn/202170d1a51f-509e-4a27-8cf3-2755294a23b8.png)
 
 
+![articles_sceen.png](https://2.pik.vn/202127b44536-25d6-4768-b2e4-989325947bfb.png)
 
 ## Gem used
 
